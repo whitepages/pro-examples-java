@@ -1,0 +1,5 @@
+language: java
+install: gradle build
+script:
+  - gradle -PmainClass=IdentityCheckGet execute
+  - gradle -PmainClass=LeadVerifyGet execute
