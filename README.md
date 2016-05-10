@@ -1,4 +1,4 @@
-# code-examples-java
+# Whitepages Pro Code Examples in Java [![Build Status](https://travis-ci.org/whitepages/pro-examples-java.svg?branch=master)](https://travis-ci.org/whitepages/pro-examples-java)
 
 Use [Gradle] for build and dependency management (installation instructions [here][installation]).
 
