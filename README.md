@@ -15,6 +15,7 @@ gradle build
 ```shell
 gradle -PmainClass=IdentityCheckGet execute
 gradle -PmainClass=LeadVerifyGet execute
+gradle -PmainClass=CallerIdentificationGet execute
 ```
 
 [Gradle]: http://gradle.org/
