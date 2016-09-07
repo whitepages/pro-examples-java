@@ -11,14 +11,14 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Map;
 
-public class CallerIdentificationGet {
+public class PhoneSearchGet {
     public static void main(String[] args) throws URISyntaxException, IOException {
         // Build the URI.
         URI uri = new URIBuilder()
                 .setScheme("https")
                 .setHost("proapi.whitepages.com")
-                .setPath("/3.0/caller_identification")
-                .setParameter("api_key", System.getenv("CALLER_ID_API_KEY"))
+                .setPath("/3.0/phone")
+                .setParameter("api_key", System.getenv("PHONE_SEARCH_API_KEY"))
                 .setParameter("phone", "6464806649")
                 .build();
 

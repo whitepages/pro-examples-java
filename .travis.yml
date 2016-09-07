@@ -3,4 +3,4 @@ install: gradle build
 script:
   - gradle -PmainClass=IdentityCheckGet execute
   - gradle -PmainClass=LeadVerifyGet execute
-  - gradle -PmainClass=CallerIdentificationGet execute
+  - gradle -PmainClass=PhoneSearchGet execute
