@@ -23,7 +23,7 @@ public class LeadVerifyGet {
                 .setParameter("email_address", "medjalloh1@yahoo.com")
                 .setParameter("address_city", "Ashland")
                 .setParameter("address.postal_code", "59004")
-                .setParameter("address.state", "MT")
+                .setParameter("address.state_code", "MT")
                 .setParameter("address.street_line_1", "302 Gorham Ave")
                 .setParameter("ip_address", "108.194.128.165")
                 .build();
