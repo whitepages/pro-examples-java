@@ -24,7 +24,7 @@ public class LeadVerifyGet {
                 .setParameter("address.street_line_1", "302 Gorham Ave")
                 .setParameter("address_city", "Ashland")
                 .setParameter("address.postal_code", "59004")
-                .setParameter("address.state_code", "MT")   
+                .setParameter("address.state_code", "MT")
                 .setParameter("address.country_code", "US")
                 .setParameter("ip_address", "108.194.128.165")
                 .build();
